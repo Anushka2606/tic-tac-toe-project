@@ -88,7 +88,36 @@ body{
     display:none;
 }
 
-@media (min-width:320px) and (max-width:768px){
+@media (min-width:320px) and (max-width:480px){
+    .msg-container{
+        height: 75vmin;
+     }
+         #msg{
+            font-size: 2rem;
+         }
     
+        h1{
+            font-size:2.5rem;
+        }
+    
+        .container{
+            height:40vh;
+        }
+    
+        .box{
+            font-size: 3rem;
+        }
+    
+        #new-btn{
+            width:50vmin;
+            height: 15vmin;
+    
+        }
+    
+        #reset-btn{
+            width:50vmin;
+            height: 15vmin;
+    
+        }
 }
 
